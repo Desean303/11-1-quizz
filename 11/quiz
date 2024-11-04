@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int num;
+	cout << "how was your halloween (1 - 10)" << endl;
+	cin >> num;
+	int(num < 5)
+		cout << "sorry it wasn't great :(" << endl;
+	else if(num >= 5)
+		cout << "I'm glad it was good!" << endl;
+}
